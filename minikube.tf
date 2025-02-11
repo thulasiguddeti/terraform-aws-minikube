@@ -7,7 +7,7 @@ module "minikube" {
   ssh_public_key = "~/.ssh/id_rsa.pub"
   aws_subnet_id = "subnet-027e771684eb1e428" #replace your default subnet id
   # by default centos7 will be used
-  #ami_image_id = "ami-b81dbfc5"
+  ami_image_id = "ami-b81dbfc5"
   hosted_zone = "pragna.site"
   hosted_zone_private = false
 
